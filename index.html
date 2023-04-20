@@ -1,0 +1,224 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header hidden">
+        <a class="header-btn"><img src="./img/menu.png" /></a>
+      </header>
+      <div class="main">
+        <div class="menu hidden">
+          <div class="menu-close">
+            <img class="menu-close_btn" src="./img/close.png" />
+          </div>
+          <div class="menu-item">
+            <a class="menu-item_text">Главная</a>
+            <a class="menu-item_text_info">Инфориация о тесте</a>
+            <a class="menu-item_text_test">Пройти тест</a>
+          </div>
+        </div>
+        <div class="quiz-detail hidden">
+          <!-- quize detail main page -->
+          <div class="quiz-detail_main_page">
+            <h5 class="quiz-detail_main_page_text">
+              Пройдите точный и быстрый
+            </h5>
+            <h1 class="quiz-detail_main_page_label">TECT HA ОПРЕДЕЛЕНИЕ IQ</h1>
+            <img class="quiz-detail_main_page_img" src="./img/brain.png" />
+            <button class="quiz-detail_page_btn">ПРОЙТИ ТЕСТ</button>
+            <h5 class="quiz-detail_main_page_text">
+              <span class="quiz-detail_main_page_highlighted"
+                >И получите рекомендации по развитию своего интеллекта</span
+              >
+              и улучшению финансового благосостояния и личной жизни
+            </h5>
+            <h6 class="quiz-detail_main_page_detail">Подробнее</h6>
+          </div>
+
+          <!--quize detail second page -->
+          <div class="quiz-detail_second_page">
+            <span class="quiz-detail_second_page_quotes_top">"</span>
+            <h3 class="quiz-detail_second_page_quote_text">
+              Профессиональный IQ-тест позволяет не только определить
+              коэффициент вашего интеллекта, но и выработать список рекомендаций
+              для повышения этого показателя
+            </h3>
+            <span class="quiz-detail_second_page_quotes_bottom">"</span>
+          </div>
+
+          <!--quize detail thirth page -->
+          <div class="quiz-detail_thirth_page">
+            <h3 class="quiz-detail_thirth_page_text">
+              Также по результатам теста
+              <span class="quiz-detail_thirth_page_uppercase">ВЫ ПОЛУЧИТЕ</span>
+              подробные
+              <span class="quiz-detail_thirth_page_uppercase">СОВЕТЫ</span>
+              по определению наиболее перспективной
+              <span class="quiz-detail_thirth_page_uppercase"
+                >ДЛЯ ВАШЕГО ТИПА</span
+              >
+              интеллекта
+              <span class="quiz-detail_thirth_page_uppercase"
+                >СФЕРЫ ДЕЯТЕЛЬНОСТИ,</span
+              >
+              которая принесет вам скорейший финансовый результат.
+            </h3>
+            <img class="quiz-detail_thirth_page_img" src="./img/lungs.png" />
+            <button class="quiz-detail_page_btn">Пройти тест</button>
+          </div>
+
+          <!--quize detail last page  -->
+          <div class="quize-detail_last_page">
+            <h3 class="quize-detail_last_page_text_h3">
+              Прохождение теста займет у вас не более
+              <span class="quize-detail_last_page_yellow">12 минут</span>, а его
+              результаты вы сможете
+              <span class="quize-detail_last_page_yellow"
+                >использовать всю жизнь.</span
+              >
+            </h3>
+            <h3 class="quize-detail_last_page_text">
+              Профессиональная интерпретация и детально
+              <span class="quize-detail_last_page_weigth"
+                >проработанные рекомендации</span
+              >
+              позволят вам качественно
+              <span class="quize-detail_last_page_weigth"
+                >изменить все аспекты своей жизни</span
+              >: от финансового до любовного.
+            </h3>
+            <button class="quize-detail_last_page_btn">Пройти тест</button>
+          </div>
+        </div>
+        <div class="quiz">
+          <div class="quiz-header">
+            <img class="quiz-header_open" src="./img/menu.png" />
+            <img class="quiz-header_img" src="./img/brainSM.png" />
+            <h1 class="quiz-header_text">TECT HA ОПРЕДЕЛЕНИЕ IQ</h1>
+          </div>
+          <div class="quiz-progress">
+            <div class="quiz-progress_inner"></div>
+          </div>
+          <div class="quiz-content">
+            <h3 class="quiz-title"></h3>
+            <ul class="quiz-list"></ul>
+
+            <div class="quiz-color hidden">
+              <ul class="color-row hidden">
+                <div
+                  onclick="addBorderColors(this)"
+                  class="color"
+                  style="background-color: #a8a8a8; width: 50px; height: 50px"
+                ></div>
+                <div
+                  onclick="addBorderColors(this)"
+                  class="color"
+                  style="background-color: #0000a9; width: 50px; height: 50px"
+                ></div>
+                <div
+                  onclick="addBorderColors(this)"
+                  class="color"
+                  style="background-color: #00a701; width: 50px; height: 50px"
+                ></div>
+                <div
+                  onclick="addBorderColors(this)"
+                  class="color"
+                  style="background-color: #f60100; width: 50px; height: 50px"
+                ></div>
+                <div
+                  onclick="addBorderColors(this)"
+                  class="color"
+                  style="background-color: #fdff19; width: 50px; height: 50px"
+                ></div>
+                <div
+                  onclick="addBorderColors(this)"
+                  class="color"
+                  style="background-color: #a95403; width: 50px; height: 50px"
+                ></div>
+                <div
+                  onclick="addBorderColors(this)"
+                  class="color"
+                  style="background-color: #000000; width: 50px; height: 50px"
+                ></div>
+                <div
+                  onclick="addBorderColors(this)"
+                  class="color"
+                  style="background-color: #850068; width: 50px; height: 50px"
+                ></div>
+                <div
+                  onclick="addBorderColors(this)"
+                  class="color"
+                  style="background-color: #46b3ac; width: 50px; height: 50px"
+                ></div>
+              </ul>
+            </div>
+            <button class="quiz-content_btn" onclick="nextQuestion()">
+              Далее
+            </button>
+          </div>
+        </div>
+
+        <div class="processing hidden">
+          <div class="quiz-progress">
+            <div class="quiz-progress_inner"></div>
+          </div>
+          <h1 class="processing-result_text_lg">Обработка результатов</h1>
+          <div class="processing-result_main_spiner">
+            <div class="processing-result_spiner">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+          <h3 class="processing-result_text_sm">
+            Определение стиля мышления..
+          </h3>
+        </div>
+
+        <div class="result hidden">
+          <h1 class="result-text_lg">ВАШ РЕЗУЛЬТАТ РАССЧИТАН:</h1>
+          <h3 class="result-title">
+            Вы относитесь к 3% респондентов, чей уровень интеллекта более чем на
+            15 пунктов отличается от среднего в большую или меньшую сторону!
+          </h3>
+          <h1 class="result-warning">СКОРЕЕ ПОЛУЧИТЕ СВОЙ РЕЗУЛЬТАТ!</h1>
+          <h4 class="result-text_sm">
+            В ЦЕЛЯХ ЗАЩИТЫ ПЕРСОНАЛЬНЫХ ДАННЫХ РЕЗУЛЬТАТ ТЕСТА, ИХ ПОДРОБНАЯ
+            ИНТЕРПРЕТАЦИЯ И РЕКОМЕНДАЦИИ ДОСТУПНЫ В ВИДЕ ГОЛОСОВОГО СООБЩЕНИЯ ПО
+            ЗВОНКУ С ВАШЕГО МОБИЛЬНОГО ТЕЛЕФОНА
+          </h4>
+          <h3 class="result-recommend">
+            Звоните скорее, запись доступна всего
+            <p class="result-timer" id="timer">10:00</p>
+            минут
+          </h3>
+
+          <button class="result-btn" onclick="showFetchData()">
+            <img class="result-img_phone" src="./img/phone-call.png" />Позвонить
+            и прослушать результат
+          </button>
+          <div class="result-fetch_data" id="person-data"></div>
+        </div>
+      </div>
+
+      <footer class="footer"></footer>
+    </div>
+
+    <script type="text/javascript" src="./js/questions.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+  </body>
+</html>
